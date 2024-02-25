@@ -121,7 +121,7 @@ header.scrolling {
 }
 
 .banner__home {
-    background-image: url(/images/home-background.png);
+    background-image: url(home-background.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -157,7 +157,7 @@ header.scrolling {
 }
 
 .banner__game {
-    background-image: url(/images/game-background.jpeg);
+    background-image: url(game-background.jpeg);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -201,7 +201,7 @@ header.scrolling {
 }
 
 .banner__prism {
-    background-image: url(/images/about-background.png);
+    background-image: url(about-background.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -346,12 +346,12 @@ footer {
     }
 
     .banner__home {
-        background-image: url(/images/mobile/home-banner-mobile.png);
+        background-image: url(home-banner-mobile.png);
         background-position: center;
     }
 
     .banner__game {
-        background-image: url(/images/mobile/game-banner-mobile.png);
+        background-image: url(game-banner-mobile.png);
     }
 
     .banner__game .shadow {
@@ -368,7 +368,7 @@ footer {
     }
 
     .banner__prism {
-        background-image: url(/images/mobile/prism-banner-mobile.png);
+        background-image: url(prism-banner-mobile.png);
         background-position: center;
     }
 
