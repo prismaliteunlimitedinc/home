@@ -1,5 +1,5 @@
-var red = './images/prismalite-red-logo.png';
-var dft = './images/prismalite-logo.png';
+var red = '.prismalite-red-logo.png';
+var dft = '.prismalite-logo.png';
 
 window.addEventListener("scroll", function(){
     let header = document.querySelector('#header')
