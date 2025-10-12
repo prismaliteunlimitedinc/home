@@ -1,4 +1,4 @@
-var red = 'prismalite-red-logo.png';
+var red = 'prismalite_logo_colored.png';
 var dft = 'prismalite-logo.png';
 
 window.addEventListener("scroll", function(){

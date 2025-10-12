@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header id="header">
         <div class="header__container">
             <div class="flex__container">
@@ -17,13 +18,13 @@
                 <nav class="nav__header">
                     <ul>
                         <li class="nav__item"><a href="#home">Home</a></li>
-                        <li class="nav__item"><a href="404.html">Jogos</a></li>
+                        <li class="nav__item"><a href="#game">Jogos</a></li>
                         <li class="nav__item"><a href="#about">Sobre</a></li>
                     </ul>
                 </nav>
-                <div class="play__btn">
-                    <a href="" target=""><button class="btn">Breve!</button></a>
-                </div>
+                <!-- <div class="play__btn">
+                    <a href="rivals.html" target=""><button class="btn">Breve!</button></a>
+                </div> -->
             </div>
             <!-- Responsive Header -->
         <div class="resp__header" id="resp__header">
@@ -33,7 +34,7 @@
             <nav class="nav_resp__header">
                 <ul>
                     <li class="nav__item"><a href="#home">Home</a></li>
-                    <li class="nav__item"><a href="games.html">Jogos</a></li>
+                    <li class="nav__item"><a href="#game">Jogos</a></li>
                     <li class="nav__item"><a href="#about">Sobre</a></li>
                 </ul>
             </nav>
@@ -42,32 +43,57 @@
     </header>
     <div class="container">
         <div class="banner__home" id="home">
-            <img src="helltower-logo.png" alt="Assault on the Helltower™ Logo" class="home__logo" >
-            <div class="gx__btn">
-                <a href="" target=""><button>Em breve!</button></a>
+            <img src="rivals_logo_common.png" alt="Rivals to the Death™ Logo" class="home__logo" >
+            <div class="play__btn__focus">
+                <a href="rivals.html" target=""><button>RIVALIZAR!</button></a>
+            </div>
+            
+        </div>
+        <div class="banner__game__vdo hidden" id="game">
+            <div class="shadow">
+                <div class="game__desc">
+                    <div class="game__logo">
+                        <img src="primordial_no_prism.png" alt="" width="100"><br><br>
+                    </div>
+                    <div class="game__logo">
+                        <img src="vdo-logo.png" alt="" width="500"><br><br>
+                    </div>
+                    
+                    <span></span>
+                    <p>Neste jogo, jogue como um cientista novato chamado pela Moonlit Co. para tentar desativar um sistema de segurança desenvolvido pela FUNDADORA, que usa a matemática a seu favor para impedir o acesso ao seu escritório. Cabe a você lutar com chefes e mini chefes, e destruír o mal pela RAIZ de uma vez por todas.</p>
+                    <p></p>
+                    <p class="spacing">Primeiro jogo desenvolvido pela nossa equipe "Primordial Studios", Demonstração já disponível em Itch.IO!.</p>
+                    <p></p>
+                    <div class="play__btn__vdo">
+                        <a href="https://primordial-studios.itch.io/math-test" target="_blank"><button class="btn">JOGAR!</button></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="banner__game hidden" id="game">
+
+        <div class="banner__game hidden" id="">
             <div class="shadow">
                 <div class="game__desc">
                     <div class="game__logo">
                         <img src="lucius-logo.png" alt="" width="300"><br><br>
                     </div>
-                    <span>Conheça Lucius, um jovem alucinado que tenta deter uma invasão alienígena para poder... DORMIR?!?!</span>
-                    <p>Corra pela praia de Panicking Paradise matando aliens e coletando medalhas de ouro para vencer o jogo.</p>
+                    <span>Conheça Lucius, um jovem alucinado que tenta deter uma invasão alienígena para poder... DORMIR?!</span>
+                    <p>Corra pela praia de Panicking Paradise nesse jogo curto e sem fim, matando aliens e coletando medalhas de ouro para vencer o jogo.</p>
                     <p></p>
-                    <p class="spacing">Já disponivel em GX.Games (Windows), a versão mobile pode chegar futuramente.</p>
+                    <p class="spacing">Momentaneamente indisponível.</p>
                     <div class="play__btn">
-                        <a href="https://gx.games/pt-br/games/cwtrzj/beat-em-lucius-encore-update-coming-soon-/" target="_blank"><button class="btn">JOGAR!</button></a>
+                        <!-- Não mostrar ppr enquanto. <a href="https://gx.games/pt-br/games/cwtrzj/beat-em-lucius-encore-update-coming-soon-/" target="_blank"><button class="btn">JOGAR!</button></a>-->
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div class="banner__prism hidden" id="about">
             <div class="shadow">
                 <div class="prism__desc">
-                    <span>PRISMALITE: UMA DUPLA DE AMIGOS</span>
-                    <p>A Prismalite UNLIMITED, Inc. foi criada após o desenvolvimento de "Beat 'Em, Lucius!", um jogo feito por uma dupla de amigos como um trabalho escolar, e por terem gostado de sua criação, decidiu-se então que iriam continuar com tal projeto, porém como uma "empresa". Hoje Victor Luis e João Pedro trabalham em conjunto para melhorarem mais o jogo.</p>
+                    <span>PRISMALITE: Jogos indies diferentes e criativos.</span>
+                    <p>A Prismalite UNLIMITED, Studios. foi criada após o desenvolvimento de "Beat 'Em, Lucius!", um jogo feito como projeto escolar que deu inicio a diversos outros projetos, como "V-DO's Math Test", e o que está por vir, "Rivals to the Death".</p>
                 </div>
             </div>
         </div>
@@ -77,7 +103,7 @@
             <img src="prismalite-red-logo.png" alt="Prismalite Logo" id="prism-logo">
         </div>
         <div class="rights">
-            <p>&copy;2023 - 2024  Todos os direitos reservados</p>
+            <p>&copy; 2023 - 2025 | Prismalite UNLIMITED, Studios., Todos os direitos reservados.</p>
         </div>
         <div class="social__medias">
             <a href="https://www.instagram.com/prisma.lite/" target="_blank"><img src="instagram-logo.png" alt="Instagram Logo"></a>
