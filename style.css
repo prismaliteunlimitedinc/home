@@ -5,7 +5,7 @@
     --black: #000;
     --white: #fff;
     --l-red: #b30000;
-    --b-red: #570000;
+    --b-red: #3d1b1b;
     --grey: rgb(202, 202, 202);
 }
 
@@ -66,17 +66,19 @@ header.scrolling {
 .prism__logo img {
     width: 7.5rem;
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
 }
+
+
 
 .nav__header ul {
     display: flex;
-    list-style: none;
+    list-style: inside;
 }
 
 .nav__header ul li {
     display: inline-block;
-    margin: 0 30px;
+    margin: 20px 30px;
     transition: .2s;
 }
 
@@ -93,9 +95,9 @@ header.scrolling {
 .play__btn .btn {
     font-family: 'Quicksand';
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 30px;
-    width: 65px;
+    width: 70px;
     background-color: var(--b-red);
     color: var(--white);
     font-weight: 700;
@@ -106,6 +108,43 @@ header.scrolling {
 
 .play__btn .btn:hover {
     background-color: var(--l-red);
+}
+
+
+.play__btn__vdo .btn {
+    font-family: 'Quicksand';
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    background-color: #272729;
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 2px;
+    transition: .2s;
+}
+
+.play__btn__vdo .btn:hover {
+    background-color: #5a5c79;
+}
+
+.play__btn__focus .btn {
+    font-family: 'Quicksand';
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    background-color: #272729;
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 2px;
+    transition: .2s;
+}
+
+.play__btn__focus .btn:hover {
+    background-color: #5a5c79;
 }
 
 .banner__home,
@@ -121,7 +160,7 @@ header.scrolling {
 }
 
 .banner__home {
-    background-image: url(assault-home-background.gif);
+    background-image: url(video-background1.gif);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -138,7 +177,7 @@ header.scrolling {
     border-radius: 10px;
     height: 70px;
     width: 150px;
-    background-color: #2e102c;
+    background-color: #5e1124;
     color: var(--white);
     font-size: larger;
     font-weight: 700;
@@ -166,8 +205,28 @@ header.scrolling {
     align-items: center;
     clip-path: polygon(0 0,100% 4%,100% 96%,0 100%);
 }
+.banner__game__vdo {
+    background-image: url(vdo-background.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0,100% 4%,100% 96%,0 100%);
+}
 
 .banner__game .shadow {
+    background: linear-gradient(90deg,rgba(0,0,0,.85),rgba(0,0,0,.7) 50%,transparent 65%);;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.banner__game__vdo .shadow {
     background: linear-gradient(90deg,rgba(0,0,0,.85),rgba(0,0,0,.7) 50%,transparent 65%);;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -184,7 +243,20 @@ header.scrolling {
     width: 50rem;
 }
 
+.banner__game__vdo .game__desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    width: 50rem;
+}
+
 .banner__game .game__desc span {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.banner__game__vdo .game__desc span {
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 30px;
@@ -195,7 +267,17 @@ header.scrolling {
     padding-bottom: 10px;
 }
 
+.banner__game__vdo .game__desc p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .banner__game .game__desc .spacing {
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.banner__game__vdo .game__desc .spacing {
     font-weight: 600;
     padding-top: 50px;
 }
@@ -272,7 +354,8 @@ footer {
 }
 
 .logo__footer img {
-    width: 10rem;
+    margin-left: 30px;
+    width: 8rem;
     position: relative;
     bottom: 30px;
 }
